@@ -6,6 +6,8 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/ileefmans/CS-Practicals?style=plastic)  
   
   
+## Table of Contents  
+  
   1) Games  
     a) Tic-Tac-Toe  
     b) Connect Four  
