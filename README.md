@@ -8,15 +8,15 @@
   
 ## Table of Contents  
   
-  1) Games  
-    a) Tic-Tac-Toe  
-    b) Connect Four  
-    c) Mine Sweeper  
-  2) Algorithms  
-    a) K-Means  
-    b) K-Nearest Neighbors  
-    c) Linear regression  
-  3) Other  
-    a) NLP Sentiment Analysis  
-    b) Backprop
+  1) [Games](https://github.com/ileefmans/CS-Practicals/tree/main/CS-Practicals/Games)    
+    a) [Tic-Tac-Toe](https://github.com/ileefmans/CS-Practicals/tree/main/CS-Practicals/Games/1_Tic-Tac-Toe)    
+    b) [Connect Four](https://github.com/ileefmans/CS-Practicals/tree/main/CS-Practicals/Games/2_Connect_Four)    
+    c) [Mine Sweeper](https://github.com/ileefmans/CS-Practicals/tree/main/CS-Practicals/Games/3_MIne_Sweeper)  
+  2) [Algorithms](https://github.com/ileefmans/CS-Practicals/tree/main/CS-Practicals/Algorithms)  
+    a) [K-Means](https://github.com/ileefmans/CS-Practicals/tree/main/CS-Practicals/Algorithms/K-Means)    
+    b) [K-Nearest Neighbors](https://github.com/ileefmans/CS-Practicals/tree/main/CS-Practicals/Algorithms/KNN)    
+    c) [Linear regression](https://github.com/ileefmans/CS-Practicals/tree/main/CS-Practicals/Algorithms/Linear%20Regression)  
+  3) [Other](https://github.com/ileefmans/CS-Practicals/tree/main/CS-Practicals/Other)    
+    a) [NLP Sentiment Analysis](https://github.com/ileefmans/CS-Practicals/tree/main/CS-Practicals/Other/NLP%20Sentiment%20Analysis)    
+    b) [Backprop](https://github.com/ileefmans/CS-Practicals/tree/main/CS-Practicals/Other/Backprop)  
 
