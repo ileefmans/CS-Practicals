@@ -7,8 +7,10 @@
     b) Connect Four  
     c) Mine Sweeper  
   2) Algorithms  
-    a) K-Nearest Neighbors  
-    b) K-Means  
+    a) K-Means  
+    b) K-Nearest Neighbors  
     c) Linear regression  
-  3) Other
+  3) Other  
+    a) NLP Sentiment Analysis  
+    b) Backprop
 
