@@ -118,6 +118,13 @@ class NeuralNet:
 		"""
 		return np.exp(x)/np.sum(np.exp(x))
 
+	def d_ReLU(self, x):
+		"""
+			Method for derivative of ReLU
+		"""
+		drelu = np.vectorize(lambda x: 1 if x>0 else 0)
+		return drelu(x)
+
 
 	def d_Softmax(self, x):
 		pass
