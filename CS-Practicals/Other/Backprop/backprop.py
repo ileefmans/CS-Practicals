@@ -81,12 +81,19 @@ class NeuralNet:
 		# initialize list to store weights and biases
 		self.weights = []
 
+		# Initialize batch size
+		self.batch_size = self.config['Batch Size']
+
+		# Initialize grad
+		self.current_grad = 0 
+		self.accumulated_grads = []
+
 
 		# Function to initialize weights and biases
 		def init_weights(in_dim, out_dim, batch_size):
 			W = np.random.normal(0, 0.1, size=(in_dim, out_dim))
 			b = np.random.normal(0, 0.1, size =(batch_size, out_dim))
-			self.weight.append((W, b))
+			self.weights.append((W, b))
 
 		# initialize weights and biases
 		for i in self.config:
@@ -117,13 +124,23 @@ class NeuralNet:
 		layer = 0
 		for i in self.config:
 			if 'Linear' in i:
-				x = self.Linear(x, i['Linear'][0], i['Linear'][1])
+				x = self.Linear(x, self.weights[layer], self.weights[layer])
+				layer+=1
 			elif i == 'ReLU':
 				x = self.ReLU(x)
 			elif i == 'Softmax':
 				x = self.Softmax(x)
 
 		return x
+
+	def zero_grad(self):
+		self.grad = 0
+
+	def backward(self, loss_grad):
+
+
+	def step(self, optimizer):
+
 
 
 
@@ -148,8 +165,10 @@ if __name__ == "__main__":
 	nn = NeuralNet('config.yml')
 	print(nn.config, '\n \n \n \n')
 
-	for i in nn.config['Layers']:
-		print('Linear'in i)
+	# for i in nn.config['Layers']:
+	# 	print('Linear'in i)
+
+	nn.forward()
 
 	#print(data.X_train.shape, data.X_test.shape, data.y_train.shape, data.y_test.shape)
 
