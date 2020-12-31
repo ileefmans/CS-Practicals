@@ -85,7 +85,7 @@ class NeuralNet:
 		self.batch_size = self.config['Batch Size']
 
 		# Initialize grad
-		self.current_grad = 0 
+		self.current_grad = None
 		self.accumulated_grads = []
 
 
@@ -119,6 +119,10 @@ class NeuralNet:
 		return np.exp(x)/np.sum(np.exp(x))
 
 
+	def d_Softmax(self, x):
+		pass
+
+
 	def forward(self, x):
 
 		layer = 0
@@ -134,12 +138,22 @@ class NeuralNet:
 		return x
 
 	def zero_grad(self):
-		self.grad = 0
+		self.grad = None
+		self.accumulated_grads = []
 
 	def backward(self, loss_grad):
+		self.grad = loss_grad # gradient with respect to output
+
+		# want gradient with respect to output form last linear layer
+
+		# take derivative of softmax(z) wrt z
+
+
 
 
 	def step(self, optimizer):
+
+
 
 
 
