@@ -1,0 +1,23 @@
+# Neural Network Configuration and Layers
+
+Input Dimension: 7
+Batch Size: 1
+Epochs: 10
+# Options: Linear, ReLU, Softmax
+Layers:
+  - Linear: 
+    - 7
+    - 25
+  - ReLU
+  - Linear:
+    - 25
+    - 50
+  - ReLU
+  - Linear:
+    - 50
+    - 25
+  - ReLU
+  - Linear:
+    - 25
+    - 3
+  - Softmax
