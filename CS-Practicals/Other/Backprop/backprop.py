@@ -166,6 +166,25 @@ class NeuralNet:
 
 
 	def step(self, optimizer):
+		pass
+
+
+class SGD:
+	"""
+		Class for Stochastic Gradient Descent Optimizer
+	"""
+	def __init__(self, learning_rate):
+		"""
+			Args:
+
+				learning_rate (float): Learning rate for SGD formula
+				
+		"""
+		self.learning_rate = learning_rate
+
+	def update(self, W, dW):
+		return W - self.learning_rate*dW
+
 
 
 
