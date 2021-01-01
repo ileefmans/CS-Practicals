@@ -118,6 +118,13 @@ class NeuralNet:
 		"""
 		return np.exp(x)/np.sum(np.exp(x))
 
+
+	def d_Linear_weight(self, x):
+		pass
+
+	def d_Linear_bias(self, x):
+		return 1
+
 	def d_ReLU(self, x):
 		"""
 			Method for derivative of ReLU
