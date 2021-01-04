@@ -131,5 +131,6 @@ dmypy.json
 .DS_Store
 CS-Practicals/Other/Backprop/Untitled.ipynb
 
-CS-Practicals/Other/NLP_Sentiment_Analysis/data/
+CS-Practicals/Other/NLP_Sentiment_Analysis/data
 CS-Practicals/Other/NLP_Sentiment_Analysis/data/IMDBDataset.csv
+CS-Practicals/Other/NLP_Sentiment_Analysis_MACOSX/
