@@ -19,4 +19,11 @@
   3) [Other](https://github.com/ileefmans/CS-Practicals/tree/main/CS-Practicals/Other)    
     a) [NLP Sentiment Analysis](https://github.com/ileefmans/CS-Practicals/tree/main/CS-Practicals/Other/NLP%20Sentiment%20Analysis)    
     b) [Backprop](https://github.com/ileefmans/CS-Practicals/tree/main/CS-Practicals/Other/Backprop)  
-
+  
+  
+  
+  ## TODO:  
+  
+  1) Clean up games and add front end User Interface  
+  2) Finish backprop from scratch
+  3) Reformat code (PEP8)
